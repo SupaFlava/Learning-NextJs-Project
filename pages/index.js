@@ -31,7 +31,7 @@ const HomePage = (props) => {
           content="Browse a huge list of highly actice react meetips"
         ></meta>
       </Head>
-      <MeetupList meetups={props.meetups} />;
+      <MeetupList meetups={props.meetups} />
     </>
   );
 };
